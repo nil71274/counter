@@ -6,12 +6,12 @@ function App() {
 
   const increment = ()=>{
     setCount(count+1);
-    console.log("Incremented",count);
+    console.log("Incremented",count+1);
   }
 
   const decrement = ()=>{
     setCount(count-1);
-    console.log("Decremented",count);
+    console.log("Decremented",count-1);
   }
 
   const reset = ()=>{
